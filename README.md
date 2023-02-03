@@ -4,6 +4,6 @@
 ##Setup Information
 
 ##Live Link
-git@github.com:deusnyakundi/deus-portfolio.git
+https://github.com/deusnyakundi/deus-portfolio.git
 
 ##License Info
