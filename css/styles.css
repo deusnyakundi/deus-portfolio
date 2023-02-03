@@ -69,11 +69,35 @@ h6 {font-size: 16px;}
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
     box-shadow: 19px 14px 18px -4px rgba(46,90,209,0.83);
--webkit-box-shadow: 19px 14px 18px -4px rgba(46,90,209,0.83);
--moz-box-shadow: 19px 14px 18px -4px rgba(46,90,209,0.83);
+    -webkit-box-shadow: 19px 14px 18px -4px rgba(46,90,209,0.83);
+    -moz-box-shadow: 19px 14px 18px -4px rgba(46,90,209,0.83);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: 3em 30em;
+
+    grid-template-areas: 
+      'nav-wrapper nav-wrapper'
+      'left-column right-column'
+      ; 
+
 }
 
+.nav-wrapper{
+    grid-area: nav-wrapper;
+    border: 1px dashed lightcoral;
+}
 
+.left-column{
+    grid-area: left-column;
+    border: 1px dashed lightcoral;
+}
+
+.right-column{
+    grid-area: right-column;
+    border: 1px dashed lightcoral;
+}
 @media screen and (max-width: 1200px) {
     .main-container{
         width: 1200px;
