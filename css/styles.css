@@ -56,6 +56,23 @@ h6 {font-size: 16px;}
     width: 1200px;
     margin: 0 auto;
 }
+.greeting-wrapper{
+    display: grid;
+    text-align: center;
+    align-content: center;
+    border: 2px dashed lightcoral;
+    min-height: 10em;
+
+}
+
+.intro-wrapper{
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    box-shadow: 19px 14px 18px -4px rgba(46,90,209,0.83);
+-webkit-box-shadow: 19px 14px 18px -4px rgba(46,90,209,0.83);
+-moz-box-shadow: 19px 14px 18px -4px rgba(46,90,209,0.83);
+}
+
 
 @media screen and (max-width: 1200px) {
     .main-container{
