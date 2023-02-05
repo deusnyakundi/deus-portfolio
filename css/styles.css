@@ -207,7 +207,7 @@ h6 {font-size: 16px;}
 
     padding-top: 50px;
     padding-bottom: 50px;
-    
+
 
     
 }
@@ -232,6 +232,31 @@ h6 {font-size: 16px;}
        
     }
     
+}
+/*Fit as many columns as possible into this row with min width of column 320px. When shrinking goes below 320px collapse content into 1 column*/
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr)); 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+
+.social-skills{
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+#social-img{
+    width: 100%;
+
 }
 /*Content to fit into one column when window is resized*/
 @media screen and (max-width: 800px) {
