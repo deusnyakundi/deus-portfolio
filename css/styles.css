@@ -258,6 +258,17 @@ h6 {font-size: 16px;}
     width: 100%;
 
 }
+
+#submit-btn{
+    margin-top: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: var(--buttonColor);
+    border: none;
+}
+
 /*Content to fit into one column when window is resized*/
 @media screen and (max-width: 800px) {
  
