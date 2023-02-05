@@ -68,6 +68,23 @@ h6 {font-size: 16px;}
 
 }
 
+
+[data-msg]{
+    position: relative;
+}
+
+[data-msg]:focus::before,[data-msg]:hover::before{
+    content:attr(data-msg);
+
+    position:absolute;
+    width: 100%;
+    min-width: 300px;
+    padding: 1rem;
+    background-color:none;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
