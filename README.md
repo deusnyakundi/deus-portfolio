@@ -2,7 +2,7 @@
 Deus Nyakundi
 ## About this Project
 
-This is a Landing page to my portolio.  I did this project as a week one assignment in Moringa School Code Academy. I was very excited to start this journey to learn Software Engineering.
+This is a Landing page to my portfolio.  I did this project as a week one assignment in Moringa School Code Academy. I was very excited to start this journey to learn Software Engineering.
 
 ## Technologies used for this project
 
@@ -20,8 +20,8 @@ This is a Landing page to my portolio.  I did this project as a week one assignm
 Use the live link below to view the rendered project or follow the steps below
 
 - git clone https://github.com/deusnyakundi/deus-portfolio
-- open and extract the cloned folder
-- Open 'index.html' with browser
+- Open and extract the cloned folder
+- Open 'index.html' with your browser
 
 ##
 If you would like to view the source code:
@@ -55,6 +55,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
 
 
