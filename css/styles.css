@@ -1,12 +1,12 @@
 :root{
-    --mainColor:#eaeaea;
-    --secondaryColor:#fff;
-    --mainText:black;
-    --secondaryText:#4b5156;
-    --bordercolor:#c1c1c1;
+    --mainColor:#7f7f7f;
+    --secondaryColor:#192734;
+    --mainText:#fff;
+    --secondaryText:#d4e6f4;
+    --bordercolor:#adacac;
     --themeDotBorder:#24292e;
-    --previewBg:rgb(251, 249, 243, 0.8);
-	--previewShadow:#f0ead6;
+    --previewBg:rgba(64, 63, 62, 0.8);
+	--previewShadow:#5d5c59;
 	--buttonColor:black;
 }
 
@@ -79,9 +79,9 @@ h6 {font-size: 16px;}
     position:absolute;
     width: 100%;
     min-width: 300px;
-    padding: 1rem;
-    background-color:none;
-    left: 50%;
+    padding: 1.35rem;
+    background-color:#192734;
+    left: 30%;
     transform: translate(-50%,50%);
 }
 
@@ -200,8 +200,8 @@ h6 {font-size: 16px;}
     background-color: #fff;
 }
 
-#blue-mode{
-    background-color: #192734;
+#orange-mode{
+    background-color: #e03721;
 }
 
 #green-mode{
