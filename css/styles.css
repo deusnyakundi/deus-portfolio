@@ -4,7 +4,7 @@
     --mainText:#fff;
     --secondaryText:#d4e6f4;
     --bordercolor:#adacac;
-    --themeDotBorder:#24292e;
+    --themeDotBorder:#323f4d;
     --previewBg:rgba(64, 63, 62, 0.8);
 	--previewShadow:#5d5c59;
 	--buttonColor:black;
@@ -110,10 +110,16 @@ h6 {font-size: 16px;}
     border-radius: 5px 5px 0 0 ;
     grid-area: nav-wrapper;
     border-bottom: 1px solid var(--borderColor);
+    border-top: 1px solid #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--mainColor);
+    background-color:var(--mainColor);
+    
+}
+
+#contact-detail{
+    color: white;
 }
 #navigation{
     margin: 0;
@@ -123,6 +129,7 @@ h6 {font-size: 16px;}
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+    
 }
 
 .dots-wrapper{
